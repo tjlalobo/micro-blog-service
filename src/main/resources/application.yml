@@ -1,0 +1,13 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: chirp-service
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        uri: http://localhost:8888
+
